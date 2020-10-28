@@ -1,0 +1,41 @@
+.list-view-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  cursor: default;
+}
+
+.list-view-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkbox-clip {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.checkbox-clip:hover {
+  cursor: pointer;
+}
+
+.label-clip {
+  margin-left: 6px;
+}
+
+.btn-favorite-clear {
+  margin-left: 20px;
+  background-color: #35c5f0;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 4px;
+  border-radius: 12px;
+}
+.btn-favorite-clear:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #35c5f0;
+  color: #35c5f0;
+}
